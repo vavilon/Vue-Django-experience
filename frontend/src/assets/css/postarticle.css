@@ -1,0 +1,12 @@
+form input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+form span {
+  margin-right: 8px;
+}
+form button {
+  margin-top: 10px;
+  font-size: 100%;
+  margin-bottom: 5px;
+}

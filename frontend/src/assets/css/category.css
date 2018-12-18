@@ -1,0 +1,8 @@
+/** CATEGORY BEGIN **/
+.main-left ul li {
+  line-height: 30px;
+}
+.main-left ul li:hover {
+  text-decoration: underline;
+}
+/** CATEGORY END **/

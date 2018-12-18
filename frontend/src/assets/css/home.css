@@ -1,0 +1,96 @@
+/** POSTLIST BEGIN **/
+.main-left{
+  padding: 0;
+}
+.post-filter{
+  height: 40px;
+  border-bottom: 1px solid #f8f9fa;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.post-filter > a{
+  color: #777;
+  font-size: 85%;
+  cursor: pointer;
+}
+.post-filter > a:hover{
+  color: #2680d9;
+}
+.post-filter > a:last-child{
+  float: right;
+}
+.post-filter > a:last-child > svg{
+  position: relative;
+  top: 2px;
+}
+/** POSTLIST MAIN **/
+.post-list{
+  min-height: 155px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-bottom: 1px solid #f8f9fa;
+}
+.post-list-header{
+  color: #b2bac2;
+  font-size: 85%;
+  overflow: hidden;
+}
+.post-list-header > span:first-child::after{
+  margin-left: 4px;
+  content: '·';
+  color: #777;
+}
+.post-list-title{
+  margin-top: 4px;
+}
+.post-list-title:hover{
+  text-decoration: underline;
+}
+.post-list-body{
+  margin-top: 5px;
+  min-height: 60px;
+  font-size: 85%;
+  color: #777;
+  line-height: 20px;
+}
+.post-list-footer{
+  height: 22px;
+  margin-top: 4px;
+  color: #777;
+  font-size: 85%;
+}
+.post-list-footer > span{
+  cursor: pointer;
+  height: 24px;
+  line-height: 22px;
+  margin-right: 10px;
+}
+.post-list-footer svg{
+  position: relative;
+  top: 2px;
+  margin-right: 2px;
+}
+.post-list-footer span:hover{
+  color: #000;
+}
+.post-footer{
+  padding: 0.75rem 1.25rem;
+}
+.pagination{
+  text-align: center;
+  margin: 0 auto;
+}
+.pagination a{
+  display: inline-block;
+  font-size: 16px;
+  height: 18px;
+  width: 18px;
+  color: #777;
+  text-decoration: none;
+  margin-right: 3px;
+}
+.pagination .current, .pagination .router-link-exact-active{
+  background-color: #343a40;
+  color: #fff;
+}
+/** POSTLIST END **/

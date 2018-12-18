@@ -1,0 +1,29 @@
+/** POST DETAIL BEGIN **/
+.post-header{
+  font-size: 85%;
+  color: #777;
+}
+.post-header > *:not(:last-child):after {
+  content: '·';
+  color: #777;
+}
+.post-body{
+  margin-top: 30px;
+}
+.post-comment{
+  margin-top: 30px;
+}.post-comment section{
+  padding: 10px 0;
+}
+.post-comment span{
+  color: #777;
+  font-size: 85%;
+}
+.post-comment .add-comment input{
+  border: 1px solid #777;
+  border-radius: 2px;
+}
+.post-comment .add-comment span{
+  cursor: pointer;
+}
+/** POST DETAIL END **/
